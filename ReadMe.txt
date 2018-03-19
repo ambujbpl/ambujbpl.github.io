@@ -14,13 +14,10 @@ Release Date:
 
 Author: 
 =======================================================================
-Ambuj Dubey(http://ambujportfolio.com/)
+Ambuj Dubey(www.ambujdubey.cf)
 
 Contact:
 =======================================================================
-Web: http://ambujportfolio.com/
+Web: www.ambujdubey.cf or http://ambujdubey.herokuapp.com
 Email: ambujdubey89@gmail.com
-Twitter: 
-
-License: 
-=======================================================================
+Twitter: https://twitter.com/@mbujdubey
