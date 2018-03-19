@@ -18,6 +18,7 @@ Ambuj Dubey(www.ambujdubey.cf)
 
 Contact:
 =======================================================================
-Web: www.ambujdubey.cf or http://ambujdubey.herokuapp.com
+Web: www.ambujdubey.cf or https://ambujbpl.github.io
+Oter Website : http://ambujdubey.herokuapp.com
 Email: ambujdubey89@gmail.com
 Twitter: https://twitter.com/@mbujdubey
