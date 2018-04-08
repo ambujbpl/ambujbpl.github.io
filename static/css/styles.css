@@ -293,3 +293,57 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+ul#footer_Menu li {
+  display:inline;
+	/* margin-left: 15px; */
+}
+ul#footer_Menu li a{
+color:#010101;
+}
+ul#footer_Menu li a:hover{
+  color:#337ab7 !important;
+}
+ul#footer_Menu li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	height: 36px;
+	line-height: 36px;
+	margin: 0px auto;
+	padding: 0;
+  float: left;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+ul#footer_Menu li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+ul#footer_Menu li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.socialDiv{
+  text-align: center;
+  padding: 0px auto;
+  width: 50%;
+  display: block;
+}
+.footerDiv{
+  /* text-align: center; */
+  /* padding: 0px auto; */
+  /* width: 50%; */
+  display: block;
+}
