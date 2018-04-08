@@ -7,11 +7,11 @@ ambujCV
 
 Theme version:
 =======================================================================
-v1.0
+v2.0
 
 Release Date:
 =======================================================================
-24 Dec 2017
+9 Apr 2018
 
 Author: 
 =======================================================================
@@ -27,3 +27,7 @@ Other Website : http://ambujdubey.herokuapp.com
 Email: ambujdubey@outlook.in
 
 Twitter: https://twitter.com/@mbujdubey
+
+Facebook: https://www.facebook.com/ambujdubeybpl
+
+Linkedin: https://in.linkedin.com/in/ambuj-dubey-2923b456
