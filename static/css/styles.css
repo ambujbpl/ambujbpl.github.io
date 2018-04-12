@@ -1,17 +1,16 @@
-/*
- * Template Name: Orbit - Responsive Resume/CV Template for Developers
- * Version: 1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
-*/
+/* --- My css variable Variables --- */
+/* :root represent root of html file means everything is inside the :root */
+:root{
+    --body-color: #f5f5f5;
+    --sidebar-color: #42A8C0;
+    --grid-layout: 1fr 1fr 1fr;
+}
 /* styles.css */
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
-  background: #f5f5f5;
+  background: var(--body-color);
   font-size: 13px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -52,7 +51,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: var(--sidebar-color);
   position: absolute;
   right: 0;
   width: 240px;
@@ -293,3 +292,113 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+/*###$$$-- back-to-top -$$$####*/
+
+#back-top {
+  position: fixed;
+  bottom: 5%;
+  margin-left: 0;
+  right: 3px;
+  z-index: 500;
+  border: 1px solid #000;
+  width: auto;
+  padding: 10px;
+  background-color: darkolivegreen;
+  color: #fff;
+}
+
+#back-top a {
+  display: none;
+}
+
+#back-top:hover a {
+  display: inline-block;
+}
+
+#back-top a:link {
+  color: #fff !important;
+}
+
+#back-top a:visited {
+  color: #fff !important;
+}
+
+#back-top:hover{
+  cursor: pointer;
+}
+
+.btn-primary {
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.activeA {
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+/* ####theme-config-box##### */
+.theme-config {
+    position: fixed;
+    top: 90px;
+    right: 0;
+    /* overflow: hidden; */
+    display: block;
+    z-index: 50000;
+}
+.theme-config-box {
+    margin-right: -220px;
+    position: relative;
+    z-index: 2000;
+    transition-duration: 0.8s;
+}
+.spin-icon {
+    background: #1ab394;
+    position: absolute;
+    padding: 7px 10px 7px 13px;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.skin-settings {
+    width: 220px;
+    margin-left: 40px;
+    background: #ccffff;
+}
+.theme-config-box.show {
+    margin-right: 0;
+}
+.skin-settings .title {
+    background: #efefef;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-bottom: 1px solid #980;
+}
+/* sidebar_Wrapper_Color css */
+.sidebar_Wrapper_Color span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* body_Color css */
+.body_Color span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
