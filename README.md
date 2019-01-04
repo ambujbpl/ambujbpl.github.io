@@ -15,12 +15,12 @@ Release Date:
 
 Author: 
 =======================================================================
-Ambuj Dubey(www.ambujdubey.cf)
+Ambuj Dubey(https://ambujbpl.github.io/)
 
 Contact:
 =======================================================================
 
-Web: www.ambujdubey.cf or https://ambujbpl.github.io
+Web: https://ambujbpl.github.io
 
 Other Website : http://ambujdubey.herokuapp.com
 
