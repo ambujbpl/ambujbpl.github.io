@@ -8,11 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./static/images/logo.png" type="image/x-icon">
   <!-- Global CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
   <!-- Plugins CSS -->
-  <link rel="stylesheet" type="text/css" href="static/font-awesome/css/font-awesome.css" media="all">
+  <link rel="stylesheet" type="text/css" href="static/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome-animation.min.css">
   <!-- Theme CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="static/css/styles.css">
 
 </head>
 
@@ -29,7 +30,11 @@
   </div>
   <!-- ./Preloader -->
   <!-- back-to-top -->
-  <div class="hide theme-config">
+  <div id="back-top" style="display: block;">
+    <i class="fa fa-arrow-circle-up
+ faa-bounce animated" style="font-size:24px"></i> <a>Back to Top</a>
+  </div>
+  <div class="theme-config">
     <div class="theme-config-box">
       <div class="spin-icon">
         <i class="fa fa-cogs fa-spin"></i>
@@ -156,6 +161,7 @@
       <!--//interests-->
 
       <div class="container-block">
+        <a class="btn btn-primary cool-link" href="./ad/AmbujPortfolio.pdf" data-initialized="true" target="_blank"><i class="fa fa-download faa-ring animated"></i> Download Resume</a>
       </div>
       <!--//interests-->
 
@@ -176,6 +182,7 @@
         </div>
         <!--//summary-->
         <!-- <div class="container-block"> -->
+        <a class="btn btn-primary cool-link" href="./ad/AmbujPortfolio.pdf" data-initialized="true" target="_blank"><i class="fa fa-download faa-ring animated"></i> Download Resume</a>
       </section>
       <!--//section-->
 
@@ -783,6 +790,41 @@ ruby and run it into Jenkins).</span>
     <!--//main-body-->
   </div>
 
+  <!--Footer-->
+  <footer class="footer" style="text-align: center;">
+    <!--Footer Links-->
+    <div class="container">
+      <!--First row-->
+      <div class="row">
+        <!--First column-->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center" style="font-size:20px !important;">
+            <!--Facebook-->
+            <a href="mailto: ambujdubey89@gmail.com"><i class="fa fa-envelope faa-shake animated"></i></a>
+            <a href="https://ambujdubey.herokuapp.com/" target="_blank"><i class="fa fa-globe faa-shake animated"></i></a>
+            <a href="https://github.com/ambujbpl" target="_blank"><i class="fa fa-github faa-shake animated"></i></a>
+            <a href="https://www.facebook.com/ambujdubeybpl" target="_blank"><i class="fa fa-facebook faa-shake animated"></i></a>
+            <a href="https://twitter.com/@mbujdubey" target="_blank"><i class="fa fa-twitter faa-shake animated"></i></a>
+            <a href="https://www.instagram.com/ambujdubey89/" target="_blank"><i class="fa fa-instagram faa-shake animated"></i></a>
+            <a href="https://plus.google.com/117024409305659952345" target="_blank"><i class="fa fa-google-plus faa-shake animated"></i></a>
+            <a href="https://in.linkedin.com/in/ambuj-dubey-2923b456" target="_blank"><i class="fa fa-linkedin faa-shake animated"></i></a>
+          </div>
+        </div>
+        <!--/First column-->
+      </div>
+      <!--/First row-->
+    </div>
+    <!--/Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center" style="margin-top:10px;">
+      Built by <i class="fa fa-buysellads faa-shake animated"></i>
+      <a href="https://ambujdubey.herokuapp.com" target="_blank"> Ambuj Dubey </a> © 2021 All Rights Reserved.
+    </div>
+    <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
 
 
   <!-- Javascript -->
