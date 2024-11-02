@@ -101,8 +101,36 @@ ambPerson.speak("hello world")
 console.log(ambPerson.spend(45))
 
 // --------------------------------------------------------------------------------------------
+interface HasFormatter {
+    formate() : string
+}
 
+class Payment implements HasFormatter {
+    constructor(readonly recipient : string, private amount:number, public details: string) {}
+    formate() : string {
+        return `${this.recipient} have ${this.amount} for ${this.details}`
+    }
+}
+
+class Invoice implements HasFormatter {
+    constructor(readonly sender : string, private amount:number, public details: string) {}
+    formate() : string {
+        return `${this.sender} have ${this.amount} for ${this.details}`
+    }
+}
+
+let pay1:HasFormatter;
+let inv1:HasFormatter;
+
+pay1 = new Payment("Ambuj",10000,"test amount");
+inv1 = new Invoice("Amb",11000,"test amount for amb");
+console.log(pay1.formate())
+
+
+// -----------------------------------------------------------------------------------------------------
 let a = 1;
 let b = ++a;// check with pre and post increement
 console.log(`a : ${a} & b : ${b}`)
+
+// -----------------------------------------------------------------------------------------------------
 
