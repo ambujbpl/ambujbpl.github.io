@@ -126,8 +126,17 @@ pay1 = new Payment("Ambuj",10000,"test amount");
 inv1 = new Invoice("Amb",11000,"test amount for amb");
 console.log(pay1.formate())
 
+// -----------------------------------------------------------------------------------------------------
+// Generic Types
+const getUID = <Type extends object>(obj:Type) => {
+    let uid = Math.floor(Math.random() * 100)
+    return {...obj , uid}
+}
+const user = getUID({name:'Ambuj',age:15})
+console.log(user);
 
 // -----------------------------------------------------------------------------------------------------
+
 let a = 1;
 let b = ++a;// check with pre and post increement
 console.log(`a : ${a} & b : ${b}`)
