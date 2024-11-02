@@ -161,8 +161,34 @@ let userTwo: Test<string[]> = {
 console.log(user)
 console.log(userOne)
 console.log(userTwo)
+
+    
 // -----------------------------------------------------------------------------------------------------
 
+enum ResourceType {TEA, Coffee, Book, Tree}
+interface Test {
+    name: string;
+    age: number;
+    resource: ResourceType
+}
+
+let user1: Test = {
+ name: "Ambuj",
+ age:13,
+ resource: ResourceType.TEA
+}
+
+let user2: Test = {
+ name: "Dubey",
+ age:23,
+ resource: ResourceType.Tree
+}
+
+console.log(user1);
+console.log(user2);
+
+// -----------------------------------------------------------------------------------------------------
+    
 let a = 1;
 let b = ++a;// check with pre and post increement
 console.log(`a : ${a} & b : ${b}`)
