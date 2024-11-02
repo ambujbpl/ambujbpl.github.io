@@ -135,6 +135,32 @@ const getUID = <Type extends object>(obj:Type) => {
 const user = getUID({name:'Ambuj',age:15})
 console.log(user);
 
+interface Test<T> {
+    name:string;
+    age: number;
+    data:T;
+}
+
+let user: Test<string> = {
+    name:"Amb",
+    age:14,
+    data: "test data"
+}
+
+let userOne: Test<number> = {
+    name:"Amb",
+    age:14,
+    data: 100
+}
+
+let userTwo: Test<string[]> = {
+    name:"Amb",
+    age:14,
+    data: ["test", 'data']
+}
+console.log(user)
+console.log(userOne)
+console.log(userTwo)
 // -----------------------------------------------------------------------------------------------------
 
 let a = 1;
