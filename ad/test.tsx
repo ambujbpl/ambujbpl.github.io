@@ -101,8 +101,97 @@ ambPerson.speak("hello world")
 console.log(ambPerson.spend(45))
 
 // --------------------------------------------------------------------------------------------
+interface HasFormatter {
+    formate() : string
+}
 
+class Payment implements HasFormatter {
+    constructor(readonly recipient : string, private amount:number, public details: string) {}
+    formate() : string {
+        return `${this.recipient} have ${this.amount} for ${this.details}`
+    }
+}
+
+class Invoice implements HasFormatter {
+    constructor(readonly sender : string, private amount:number, public details: string) {}
+    formate() : string {
+        return `${this.sender} have ${this.amount} for ${this.details}`
+    }
+}
+
+let pay1:HasFormatter;
+let inv1:HasFormatter;
+
+pay1 = new Payment("Ambuj",10000,"test amount");
+inv1 = new Invoice("Amb",11000,"test amount for amb");
+console.log(pay1.formate())
+
+// -----------------------------------------------------------------------------------------------------
+// Generic Types
+const getUID = <Type extends object>(obj:Type) => {
+    let uid = Math.floor(Math.random() * 100)
+    return {...obj , uid}
+}
+const user = getUID({name:'Ambuj',age:15})
+console.log(user);
+
+interface Test<T> {
+    name:string;
+    age: number;
+    data:T;
+}
+
+let user: Test<string> = {
+    name:"Amb",
+    age:14,
+    data: "test data"
+}
+
+let userOne: Test<number> = {
+    name:"Amb",
+    age:14,
+    data: 100
+}
+
+let userTwo: Test<string[]> = {
+    name:"Amb",
+    age:14,
+    data: ["test", 'data']
+}
+console.log(user)
+console.log(userOne)
+console.log(userTwo)
+
+    
+// -----------------------------------------------------------------------------------------------------
+
+enum ResourceType {TEA, Coffee, Book, Tree}
+interface Test {
+    name: string;
+    age: number;
+    resource: ResourceType
+}
+
+let user1: Test = {
+ name: "Ambuj",
+ age:13,
+ resource: ResourceType.TEA
+}
+
+let user2: Test = {
+ name: "Dubey",
+ age:23,
+ resource: ResourceType.Tree
+}
+
+console.log(user1);
+console.log(user2);
+
+// -----------------------------------------------------------------------------------------------------
+    
 let a = 1;
 let b = ++a;// check with pre and post increement
 console.log(`a : ${a} & b : ${b}`)
+
+// -----------------------------------------------------------------------------------------------------
 
