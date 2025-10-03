@@ -26,6 +26,4 @@ Email: ambujdubey@outlook.in
 
 X(Twitter): [@mbujdubey](https://x.com/mbujdubey)
 
-Facebook: https://www.facebook.com/ambujdubeybpl
-
 Linkedin: https://in.linkedin.com/in/ambuj-dubey-2923b456
