@@ -22,11 +22,9 @@ Contact:
 
 Web: https://ambujbpl.github.io
 
-Other Website : http://ambujdubey.herokuapp.com
-
 Email: ambujdubey@outlook.in
 
-Twitter: https://twitter.com/@mbujdubey
+X(Twitter): [@mbujdubey](https://x.com/mbujdubey)
 
 Facebook: https://www.facebook.com/ambujdubeybpl
 
