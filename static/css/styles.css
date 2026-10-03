@@ -119,6 +119,12 @@ p {
   padding: 30px;
 }
 
+.sidebar-wrapper .download-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
   font-size: 16px;
@@ -222,6 +228,13 @@ p {
 
 .main-wrapper .section {
   margin-bottom: 60px;
+}
+
+.summary-actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .main-wrapper .experiences-section .item {
